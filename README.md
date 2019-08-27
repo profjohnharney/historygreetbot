@@ -4,7 +4,7 @@ A little robot, powered by a Raspberry Pi Model 3B+, that will stand outside my 
 
 ## Required Components
 
-- [ ] Motion recognition software ~~(likely solution: [Motion](https://github.com/Motion-Project))~~ (May look into this [ruby plugin](https://rubygems.org/gems/humble_rpi-plugin-pir/versions/0.1.2))
+- [ ] Motion recognition software ~~(likely solution: [Motion](https://github.com/Motion-Project))~~ (May look into this [ruby plugin](https://github.com/jrobertson/humble_rpi-plugin-pir/))
 - [ ] Software solution to trigger audio with perceived motion
 - [ ] Generate range of responses: historical facts, quotes
 
