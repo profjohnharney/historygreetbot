@@ -1,4 +1,4 @@
-# this code exists thanks to Texas-Mark on the official RPi forums, he shared this at https://www.raspberrypi.org/forums/viewtopic.php?t=176241
+# this code exists thanks to Texas-Mark on the official RPi forums, he shared the code this is (heavily) based on at https://www.raspberrypi.org/forums/viewtopic.php?t=176241
 
 import RPi.GPIO as GPIO
 import time
