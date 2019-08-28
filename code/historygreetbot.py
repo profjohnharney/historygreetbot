@@ -22,15 +22,4 @@ print "Detecting motion at " + str(datetime.now())
 
 while True:
     if GPIO.input(pir):
-      print "---"
-      print "Motion Detected at " + str(datetime.now())
-      print "Recording a movie for " + str(movie_length) + " seconds"
-      subprocess.call(["gphoto2", "--set-config", "movie=1", "--wait-event=" + str(movie_length) + "s", "--set-config", "movie=0"])
-      print "Hold 3 seconds"
-      time.sleep(3)
-      print "Finish recording and detecting motion again at " + str(datetime.now())
-    time.sleep(0.5) # Detect motion every half second
-
-
-
-os.system("clementine " + file)
+        os.system("clementine " + file)
