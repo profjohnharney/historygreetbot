@@ -22,4 +22,4 @@ print "Detecting motion at " + str(datetime.now())
 
 while True:
     if GPIO.input(pir):
-        os.system("clementine " + file)
+        os.system("omxplayer " + file)
